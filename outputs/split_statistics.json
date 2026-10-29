@@ -1,0 +1,18 @@
+{
+  "total_samples": 15989,
+  "train_samples": 11192,
+  "train_class_counts": {
+    "0": 8626,
+    "1": 2566
+  },
+  "validation_samples": 1599,
+  "validation_class_counts": {
+    "0": 1232,
+    "1": 367
+  },
+  "test_samples": 3198,
+  "test_class_counts": {
+    "0": 2465,
+    "1": 733
+  }
+}

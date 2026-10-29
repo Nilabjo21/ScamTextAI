@@ -1,0 +1,62 @@
+{
+  "samples": 16286,
+  "input_samples_before_deduplication": 22043,
+  "duplicates_removed": 5757,
+  "input_class_counts_before_deduplication": {
+    "legitimate": 17682,
+    "spam_or_scam": 4361
+  },
+  "input_counts_by_source_before_deduplication": {
+    "UCI_SMS_Spam_Collection": {
+      "legitimate": 4825,
+      "spam_or_scam": 747
+    },
+    "email": {
+      "legitimate": 4825,
+      "spam_or_scam": 747
+    },
+    "email_spam_10k": {
+      "legitimate": 8032,
+      "spam_or_scam": 2867
+    }
+  },
+  "skipped_source_rows": {
+    "email.csv": {
+      "rows": 1,
+      "unsupported_label_rows": 1,
+      "empty_message_rows": 0
+    }
+  },
+  "duplicate_counts_by_source": {
+    "UCI_SMS_Spam_Collection": {
+      "repeated_within_source": 415,
+      "repeated_from_prior_sources": 0,
+      "unique_new_messages": 5157
+    },
+    "email_spam_10k": {
+      "repeated_within_source": 211,
+      "repeated_from_prior_sources": 0,
+      "unique_new_messages": 10688
+    },
+    "email": {
+      "repeated_within_source": 416,
+      "repeated_from_prior_sources": 4715,
+      "unique_new_messages": 441
+    }
+  },
+  "classes": {
+    "legitimate": 12600,
+    "spam_or_scam": 3686
+  },
+  "sources": {
+    "email_spam_10k": 10688,
+    "UCI_SMS_Spam_Collection": 5157,
+    "email": 441
+  },
+  "message_length_characters": {
+    "mean": 900.559314748864,
+    "median": 360.0,
+    "minimum": 2,
+    "maximum": 43952
+  }
+}
